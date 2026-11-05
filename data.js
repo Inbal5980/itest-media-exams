@@ -50,11 +50,16 @@ window.APP_DATA = {
   },
 
   subjects: [
-    { id:"hebrew", icon:"📖", color:"#7b4bc4", name:{he:"עברית", ar:"اللغة العبرية"},
+    { id:"hebrew", icon:"📖", color:"#7b4bc4", name:{he:"עברית (הבנה, הבעה ולשון)", ar:"اللغة العبرية (فهم، تعبير ولغة)"},
       folder:"1zQl2U22LJVQyDoAHkceomlUnzu8G2zeQ",
       contacts:[{track:"he", inspector:"תומר בוזמן", instructor:"אורלי אביב", email:"orlyaviv141@gmail.com"}],
       items:[
-        { t:{he:"הסבר על בחינה עתירת מדיה בעברית", ar:"شرح عن الامتحان الغني بالوسائط في اللغة العبرية"}, url:"https://view.genial.ly/61ae7304f233c00d5fa3cc11/", type:"genially", lang:"he" }
+        { t:{he:"הסבר על בחינה עתירת מדיה בעברית", ar:"شرح عن الامتحان الغني بالوسائط في اللغة العبرية"}, url:"https://view.genial.ly/61ae7304f233c00d5fa3cc11/", type:"genially", lang:"he" },
+        { t:{he:"מאגר שאלות עתירות מדיה – עברית: הבנה, הבעה ולשון (טסטבוקס)", ar:"بنك أسئلة – اللغة العبرية"}, url:"https://testbox.cet.ac.il/%D7%9E%D7%90%D7%92%D7%A8/%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%95%D7%AA-%D7%A2%D7%99%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%A2%D7%AA%D7%99%D7%A8%D7%99-%D7%9E%D7%93%D7%99%D7%94/%D7%A2%D7%91%D7%A8%D7%99%D7%AA-%D7%94%D7%91%D7%A0%D7%94-%D7%94%D7%91%D7%A2%D7%94-%D7%95%D7%9C%D7%A9%D7%95%D7%9F-%D7%A2%D7%AA%D7%99%D7%A8-%D7%9E%D7%93%D7%99%D7%94/51682/", type:"site", lang:"he" },
+        { t:{he:"עברית: הבנה, הבעה ולשון – יחידה לדוגמה (מטח)", ar:"وحدة نموذجية – اللغة العبرية"}, url:"https://lo.cet.ac.il/player/?document=3ce8a577-4cde-4b64-a83f-a6ff6ae95632&language=he&sitekey=testbox&options=nobar", type:"site", lang:"he" },
+        { t:{he:"\"ריחוק חברתי\" – יחידת תרגול עתירת מדיה (מטח)", ar:"وحدة تدريب – التباعد الاجتماعي"}, url:"https://lo.cet.ac.il/player/?document=e0097b5f-17ad-4d4d-af39-4ad58a31dd07&language=he", type:"site", lang:"he" },
+        { t:{he:"סרטון הדרכה – עברית עתירת מדיה (Q21d2)", ar:"فيديو إرشادي"}, url:"https://youtu.be/nkebekEipg4", type:"video", lang:"he" },
+        { t:{he:"התיק האישי שלי בטסטבוקס (דורש כניסה)", ar:"الملف الشخصي في تستبوكس (يتطلب تسجيل الدخول)"}, url:"https://mybag.mytestbox.cet.ac.il/Dashboard/Items/Items.aspx#TreeFolder=TQOAEAA&Publish=All", type:"site", lang:"he" }
       ]},
 
     { id:"geography", icon:"🌍", color:"#2f7fd8", name:{he:"גאוגרפיה", ar:"الجغرافيا"},
@@ -83,7 +88,9 @@ window.APP_DATA = {
       contacts:[{track:"ar", inspector:"האני מוסא", instructor:"רים פאיד", email:"reemfaied.3006@gmail.com"}],
       items:[] },
     { id:"torah-law", icon:"⚖️", color:"#8a6d3b", name:{he:"תושב\"ע ומשפט ישראלי", ar:"التوراة الشفوية والقانون الإسرائيلي"},
-      folder:"14DV7czwdI5HYxytlnE1d4rHngig5ljJb", soon:true, contacts:[], items:[] }
+      folder:"14DV7czwdI5HYxytlnE1d4rHngig5ljJb", soon:true, contacts:[], items:[] },
+    { id:"art", icon:"🎨", color:"#e66429", name:{he:"אומנות חזותית", ar:"الفنون البصرية"},
+      folder:"", soon:true, contacts:[], items:[] }
   ],
 
   generalFolder:"1Hf0WW1ysiNLIJ6FW7Db6xe8DB_mXnDpA",
@@ -91,6 +98,7 @@ window.APP_DATA = {
 
   /* manual updates: newest one shows at the top of the home page as "חדש" (add new ones at the top of this list) */
   updates: [
+    { date:"2026-11-05", t:{he:"מועדי הדמיות ובחינות השפות הדבורות תשפ\"ז (הדמיות לעתירות מדיה נפתחות 14.3.2027)", ar:"مواعيد المحاكاة وامتحانات اللغات المحكية 2026–2027"}, src:{he:"משרד החינוך", ar:"وزارة التربية"}, url:"https://meyda.education.gov.il/files/Exams/DatesAvatarExams2027.pdf" },
     { date:"2026-11-04", t:{he:"מכתב ההנחיות המעודכן לבחינות המתוקשבות עתירות המדיה תשפ\"ז", ar:"رسالة التعليمات المحدّثة لامتحانات البجروت المحوسبة الغنية بالوسائط 2026–2027"}, src:{he:"אגף בכיר בחינות", ar:"قسم الامتحانات"}, url:"https://inbal5980.github.io/itest-media-exams/docs/michtav-hanchayot-itiruyot-media-tashpaz.pdf" }
   ],
 
