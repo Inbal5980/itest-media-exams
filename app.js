@@ -2,7 +2,7 @@
 "use strict";
 var D = window.APP_DATA, C = window.APP_CONFIG || {};
 var LS = {lang:"itme.lang", check:"itme.checklist", script:"itme.scriptUrl"};
-var lang = (function(){ try{ var l = localStorage.getItem(LS.lang); if(l==="ar"||l==="he") return l; }catch(e){} return "he"; })();
+var lang = "he"; /* Arabic translation removed at her request 5.11.2026 */
 var DRIVE = {byFolder:{}, updated:null, source:null};
 var main = document.getElementById("main");
 var filterLang = "all";
@@ -49,7 +49,7 @@ var P = {
   langs:'<path d="m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6"/>'
 };
 function I(name, cls){ return '<svg class="i'+(cls?" "+cls:"")+'" viewBox="0 0 24 24" aria-hidden="true" focusable="false">'+(P[name]||P.file)+'</svg>'; }
-var SUBJ_ICON = {hebrew:"book", chemistry:"flask", geography:"globe", envsci:"leaf", biology:"dna", music:"music", "hebrew-ar":"chat", "torah-law":"scale"};
+var SUBJ_ICON = {hebrew:"book", chemistry:"flask", geography:"globe", envsci:"leaf", biology:"dna", music:"music", "hebrew-ar":"chat", "torah-law":"scale", art:"palette"};
 var SC_ICON = {moe:"doc", prep:"compass", reg:"userCheck", dates:"calendar", faq:"help", rec:"video"};
 var TYPE_ICON = {pdf:"pdf", video:"video", doc:"doc", sheet:"sheet", site:"site", genially:"sparkles", canva:"palette", slides:"slides", image:"image", folder:"folder", file:"file"};
 function sIcon(s){ return SUBJ_ICON[s.id] || "book"; }
