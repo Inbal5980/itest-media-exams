@@ -1,0 +1,59 @@
+{
+ "updated": "2026-11-04T12:11:07Z",
+ "source": "schedule",
+ "folders": [
+  {
+   "id": "1zQl2U22LJVQyDoAHkceomlUnzu8G2zeQ",
+   "name": "עברית",
+   "files": []
+  },
+  {
+   "id": "19MDS6dGCNCBrpGHRZUY8dFyJGsu9i52M",
+   "name": "עברית לדוברי ערבית",
+   "files": []
+  },
+  {
+   "id": "1YcolNnHPvFlcbf-GvDche9_zmu8ihZpR",
+   "name": "כימיה",
+   "files": []
+  },
+  {
+   "id": "1OVMGK_me7tSQOSsqDaEuqq0fpyQAKNNa",
+   "name": "גאוגרפיה",
+   "files": [
+    {
+     "id": "19A0rk55OlDvCLuU2RHDEqE9G3IL8AsmM",
+     "name": "גיאוגרפיה אדם וסביבה – לוח זמנים תשפ\"ז.pdf",
+     "url": "https://drive.google.com/file/d/19A0rk55OlDvCLuU2RHDEqE9G3IL8AsmM/view?usp=drivesdk",
+     "mimeType": "application/pdf",
+     "modified": "2026-11-04T12:11:03.948Z"
+    }
+   ]
+  },
+  {
+   "id": "1-4zt4Ehme9QVGcfnjI_Qpkrndj3pjUWo",
+   "name": "מדעי הסביבה",
+   "files": []
+  },
+  {
+   "id": "11Ip-n5hfzPf2vfFN72-x2hv-X7TT_kZ2",
+   "name": "ביולוגיה",
+   "files": []
+  },
+  {
+   "id": "1p3veGhaSnKQVI4aMv1gzw8z6npH1vHST",
+   "name": "מוסיקה",
+   "files": []
+  },
+  {
+   "id": "14DV7czwdI5HYxytlnE1d4rHngig5ljJb",
+   "name": "תושב\"ע ומשפט ישראלי",
+   "files": []
+  },
+  {
+   "id": "1Hf0WW1ysiNLIJ6FW7Db6xe8DB_mXnDpA",
+   "name": "כללי",
+   "files": []
+  }
+ ]
+}
