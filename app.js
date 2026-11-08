@@ -310,7 +310,7 @@ function onCheck(e){
   document.getElementById("clBarWrap").setAttribute("aria-valuenow", pct);
   document.getElementById("clDone").innerHTML = tt.d===tt.n ? '<div class="done">'+I("check")+esc(U("done"))+'</div>' : "";
 }
-function linkify(s){ return s.replace(/(https?:\/\/[^\s<]+[^\s<.,;:!?)\]"\u05f3\u05f4])/g, function(u){ return '<a href="'+u+'" target="_blank" rel="noopener" style="color:#6200FF;text-decoration:underline;word-break:break-all">'+u+'</a>'; }); }
+function linkify(s){ return s.replace(/(https?:\/\/[^\s<]+[^\s<.,;:!?)\]"\u05f3\u05f4])/g, function(u){ return '<a href="'+u+'" target="_blank" rel="noopener" dir="ltr" style="display:block;margin:6px 0;color:#6200FF;text-decoration:underline;word-break:break-all;text-align:right">'+u+'</a>'; }); }
 function viewFaq(openIdx){
   var h = pageHead("help", U("faq"), "iTest") + '<div class="faq">';
   D.faq.forEach(function(f,i){ h += '<details id="faq'+i+'"'+(i===openIdx?' open':'')+'><summary><span>'+esc(T(f.q))+'</span>'+I("go","chev")+'</summary><div class="ans">'+linkify(esc(T(f.a)))+(f.src?'<span class="src">'+esc(T(f.src))+'</span>':'')+'</div></details>'; });
