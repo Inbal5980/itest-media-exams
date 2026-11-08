@@ -90,6 +90,10 @@ window.APP_DATA = {
     { id:"torah-law", icon:"⚖️", color:"#8a6d3b", name:{he:"תושב\"ע ומשפט ישראלי", ar:"التوراة الشفوية والقانون الإسرائيلي"},
       folder:"14DV7czwdI5HYxytlnE1d4rHngig5ljJb", soon:true, contacts:[], items:[] },
     { id:"art", icon:"🎨", color:"#e66429", name:{he:"אומנות חזותית", ar:"الفنون البصرية"},
+      folder:"", soon:true, contacts:[], items:[] },
+    { id:"jewish-thought", icon:"📜", color:"#8a5a2b", name:{he:"מחשבת ישראל (חדש השנה)", ar:"الفكر اليهودي (جديد هذا العام)"},
+      folder:"", soon:true, contacts:[], items:[] },
+    { id:"intl-comm", icon:"🌐", color:"#1f9aa8", name:{he:"תקשורת בינלאומית", ar:"الاتصال الدولي"},
       folder:"", soon:true, contacts:[], items:[] }
   ],
 
@@ -98,6 +102,7 @@ window.APP_DATA = {
 
   /* manual updates: newest one shows at the top of the home page as "חדש" (add new ones at the top of this list) */
   updates: [
+    { date:"2026-11-08", t:{he:"מדריך רישום נבחנים חדש ב-iTest + הקלטת הדרכה מעודכנת (ספטמבר 2026)", ar:"دليل تسجيل ممتحَنين جديد في iTest + تسجيل إرشاد محدّث"}, src:{he:"מט\"ח", ar:"مَطاح"}, url:"https://storage.cet.ac.il/iTest/support.itest14/Examinee_List_Guide.pdf" },
     { date:"2026-11-05", t:{he:"מועדי הדמיות ובחינות השפות הדבורות תשפ\"ז (הדמיות לעתירות מדיה נפתחות 14.3.2027)", ar:"مواعيد المحاكاة وامتحانات اللغات المحكية 2026–2027"}, src:{he:"משרד החינוך", ar:"وزارة التربية"}, url:"https://meyda.education.gov.il/files/Exams/DatesAvatarExams2027.pdf" },
     { date:"2026-11-04", t:{he:"מכתב ההנחיות המעודכן לבחינות המתוקשבות עתירות המדיה תשפ\"ז", ar:"رسالة التعليمات المحدّثة لامتحانات البجروت المحوسبة الغنية بالوسائط 2026–2027"}, src:{he:"אגף בכיר בחינות", ar:"قسم الامتحانات"}, url:"https://inbal5980.github.io/itest-media-exams/docs/michtav-hanchayot-itiruyot-media-tashpaz.pdf" }
   ],
@@ -105,18 +110,17 @@ window.APP_DATA = {
   shortcuts: [
     { id:"prep", icon:"🧭", color:"#7b4bc4", t:{he:"הנחיות היערכות לבחינה", ar:"إرشادات الاستعداد للامتحان"}, route:"#/prep" },
     { id:"moe", icon:"📜", color:"#1b5acc", t:{he:"מכתב ההנחיות תשפ\"ז – אגף בכיר בחינות", ar:"رسالة التعليمات 2026–2027 – قسم الامتحانات"}, url:"https://inbal5980.github.io/itest-media-exams/docs/michtav-hanchayot-itiruyot-media-tashpaz.pdf", type:"pdf", note:{he:"חדש · פורסם 4.11.2026", ar:"جديد · نُشر 4.11.2026"} },
-     { id:"reg", icon:"📝", color:"#2f7fd8", t:{he:"רישום נבחנים", ar:"تسجيل الممتحَنين"}, url:"https://storage.cet.ac.il/Bagrut/Storage/iTestSupport/ExamineeList-Guide-iTest.pdf", type:"pdf" },
+     { id:"reg", icon:"📝", color:"#2f7fd8", t:{he:"רישום נבחנים", ar:"تسجيل الممتحَنين"}, url:"https://storage.cet.ac.il/iTest/support.itest14/Examinee_List_Guide.pdf", type:"pdf" },
     { id:"dates", icon:"📅", color:"#e8458b", t:{he:"תאריכי בגרות שפות דבורות", ar:"مواعيد بجروت اللغات المحكية"}, url:"https://docs.google.com/document/d/19duJtuIX-jzdzKyPK6tdTiWBZK2wEch24cV4Qpe_Qqk/edit?usp=sharing", type:"doc",
       note:{he:"המסמך עדיין מציג את מועדי 2025 · עדכון 2026 בקרוב", ar:"المستند ما زال يعرض مواعيد 2025 · تحديث 2026 قريبًا"} },
     { id:"faq", icon:"💡", color:"#f39a1e", t:{he:"שאלות ותשובות", ar:"أسئلة وأجوبة"}, route:"#/faq" },
-    { id:"rec", icon:"🎥", color:"#3bb273", t:{he:"הקלטת מפגש מתאמי מחשוב (אוקטובר 2025)", ar:"تسجيل لقاء منسّقي الحاسوب (أكتوبر 2025)"}, url:"https://storage.cet.ac.il/Bagrut/hadracha/iTest13_winter26.mp4", type:"video", big:true }
+    { id:"rec", icon:"🎥", color:"#3bb273", t:{he:"הקלטת הדרכה מעודכנת – iTest תשפ\"ז (ספטמבר 2026)", ar:"تسجيل الإرشاد المحدّث – iTest (أيلول 2026)"}, url:"https://storage.cet.ac.il/Bagrut/hadracha/iTest14_2027_15-09-26.mp4", type:"video", big:true }
   ],
 
   prepResources: [
     { t:{he:"הנחיות היערכות לבחינה מתוקשבת (מט\"ח)", ar:"إرشادات الاستعداد للامتحان المحوسب (مَطاح)"}, url:"https://storage.cet.ac.il/Bagrut/Storage/iTestSupport/PreparingForCompExam.pdf", type:"pdf", lang:"he" },
     { t:{he:"מכתב ההנחיות המעודכן לבחינות מתוקשבות עתירות מדיה תשפ\"ז (אגף בכיר בחינות)", ar:"رسالة التعليمات المحدّثة لامتحانات البجروت المحوسبة الغنية بالوسائط 2026–2027 (قسم الامتحانات)"}, url:"https://inbal5980.github.io/itest-media-exams/docs/michtav-hanchayot-itiruyot-media-tashpaz.pdf", type:"pdf", lang:"he" },
-    { t:{he:"מדריך רישום נבחנים ב-iTest", ar:"دليل تسجيل الممتحَنين في iTest"}, url:"https://storage.cet.ac.il/Bagrut/Storage/iTestSupport/ExamineeList-Guide-iTest.pdf", type:"pdf", lang:"he" },
-    { t:{he:"דוגמאות לשאלות אפשריות בבחינה", ar:"أمثلة لأسئلة ممكنة في الامتحان"}, url:"https://lo.cet.ac.il/player/?document=50da2fdd-2a75-4723-8ab3-c0c8a0550438&language=he&sitekey=testbox#pageId=page_1&documentId=50da2fdd-2a75-4723-8ab3-c0c8a0550438", type:"site", lang:"he" },
+    { t:{he:"מדריך רישום נבחנים ב-iTest", ar:"دليل تسجيل الممتحَنين في iTest"}, url:"https://storage.cet.ac.il/iTest/support.itest14/Examinee_List_Guide.pdf", type:"pdf", lang:"he" },
     { t:{he:"דוגמה למדריך לקראת בחינת הדמיה (ביולוגיה)", ar:"مثال لدليل الاستعداد لامتحان المحاكاة (أحياء)"}, url:"https://drive.google.com/file/d/1qExo3o60qMVomEZjCCLW5IUbOMk7kYAn/view?usp=sharing", type:"pdf", lang:"he" },
     { t:{he:"יצירת בחינות מתוקשבות ב-MY TEST BOX", ar:"إنشاء امتحانات محوسبة في MY TEST BOX"}, url:"https://digitalpedagogy.co/2020/04/07/my-test-box-%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%91%D7%97%D7%99%D7%A0%D7%95%D7%AA-%D7%9E%D7%AA%D7%95%D7%A7%D7%A9%D7%91%D7%95%D7%AA/", type:"site", lang:"he" },
     { t:{he:"דרישות טכניות להפעלת iTest", ar:"المتطلبات التقنية لتشغيل iTest"}, url:null, type:"pdf", lang:"he", soon:true },
@@ -157,6 +161,8 @@ window.APP_DATA = {
 
   faqSourceUrl:"https://docs.google.com/document/d/1ct2QXsKH9omSMWFCYu1071kgzWbmY4p95Nryey5mq0w/edit?usp=sharing",
   faq: [
+    { q:{he:"יש עוד שאלות ותשובות מעבר לאלה?", ar:"هل توجد أسئلة وأجوبة إضافية؟"},
+      a:{he:"כן. באתר הניהול של iTest יש עמוד שאלות ותשובות מפורט ויעיל. כדי להגיע אליו צריך להיכנס לאתר הניהול עצמו (עם פרטי ההתחברות של בית הספר).", ar:"نعم. في موقع إدارة iTest توجد صفحة أسئلة وأجوبة مفصّلة. للوصول إليها يجب الدخول إلى موقع الإدارة نفسه (ببيانات دخول المدرسة)."} },
     { q:{he:"ב־iTest החדש, האם חייבים להודיע על התחלת הבחינה ועל סיומה ולהעלות קבצים כמו פעם?", ar:"في iTest الجديد، هل يجب الإبلاغ عن بدء الامتحان وانتهائه ورفع الملفات كما في السابق؟"},
       a:{he:"לא, הכל אוטומטי. הבחינה יורדת לבד, וקובצי התשובות עולים לבד ברגע שהתלמיד לוחץ על \"הגש\".", ar:"لا، كل شيء تلقائي. ينزل الامتحان وحده، وتُرفع ملفات الإجابات وحدها لحظة ضغط الطالب على \"تقديم\"."} },
     { q:{he:"איך עוקבים אחרי התלמידים – מי ביצע תרגול, וכמה תרגולים ביצע כל תלמיד?", ar:"كيف نتابع الطلاب – من أجرى تدريبًا، وكم تدريبًا أجرى كل طالب؟"},
