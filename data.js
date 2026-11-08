@@ -87,11 +87,11 @@ window.APP_DATA = {
       folder:"19MDS6dGCNCBrpGHRZUY8dFyJGsu9i52M", soon:true,
       contacts:[{track:"ar", inspector:"האני מוסא", instructor:"רים פאיד", email:"reemfaied.3006@gmail.com"}],
       items:[] },
-    { id:"torah-law", icon:"⚖️", color:"#8a6d3b", name:{he:"תושב\"ע ומשפט ישראלי", ar:"التوراة الشفوية والقانون الإسرائيلي"},
+    { id:"torah-law", icon:"⚖️", color:"#8a6d3b", name:{he:"תושב\"ע ומשפט עברי", ar:"التوراة الشفوية والقانون العبري"},
       folder:"14DV7czwdI5HYxytlnE1d4rHngig5ljJb", soon:true, contacts:[], items:[] },
     { id:"art", icon:"🎨", color:"#e66429", name:{he:"אומנות חזותית", ar:"الفنون البصرية"},
       folder:"", soon:true, contacts:[], items:[] },
-    { id:"jewish-thought", icon:"📜", color:"#8a5a2b", name:{he:"מחשבת ישראל (חדש השנה)", ar:"الفكر اليهودي (جديد هذا العام)"},
+    { id:"jewish-thought", icon:"📜", color:"#8a5a2b", name:{he:"מחשבת ישראל (ממלכתי)", ar:"الفكر اليهودي (رسمي)"},
       folder:"", soon:true, contacts:[], items:[] },
     { id:"intl-comm", icon:"🌐", color:"#1f9aa8", name:{he:"תקשורת בינלאומית", ar:"الاتصال الدولي"},
       folder:"", soon:true, contacts:[], items:[] }
