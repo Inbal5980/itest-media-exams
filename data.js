@@ -70,7 +70,7 @@ window.APP_DATA = {
         { t:{he:"שאלות ותשובות – בחינת הבגרות עתירת המדיה (תשפ\"ז)", ar:"أسئلة وأجوبة – امتحان البجروت الغني بالوسائط"}, url:"https://docs.google.com/document/d/1qNDTEZILz1pS6dKIgAdAUhkNBInLFwJqbLylAxweArc/edit", type:"doc", lang:"he" },
         { t:{he:"לוח זמנים שנתי להכנה לבחינת הבגרות – גאוגרפיה אדם וסביבה (תשפ\"ז)", ar:"جدول زمني سنوي للتحضير لامتحان البجروت – الجغرافيا (2026–2027)"}, url:"https://inbal5980.github.io/itest-media-exams/docs/geo-timeline-tashpaz.jpg", type:"image", lang:"he" },
         { t:{he:"כל התורה על רגל אחת – קורס אדם וסביבה", ar:"كل شيء باختصار – دورة الإنسان والبيئة"}, url:"https://view.genial.ly/633436051dceb90018d61c45", type:"genially", lang:"he" },
-        { t:{he:"קישורים חשובים", ar:"روابط مهمة"}, url:"https://drive.google.com/file/d/1tc8Wkd6WLgtJ2Unh7foz4N6DqjalECHF/view", type:"pdf", lang:"he" }
+        { t:{he:"קישורים חשובים – גאוגרפיה אדם וסביבה (תשפ\"ז)", ar:"روابط مهمة – الجغرافيا (2026–2027)"}, url:"https://inbal5980.github.io/itest-media-exams/docs/geo-important-links-tashpaz.pdf", type:"pdf", lang:"he" }
       ]},
 
 
@@ -102,7 +102,7 @@ window.APP_DATA = {
 
   /* manual updates: newest one shows at the top of the home page as "חדש" (add new ones at the top of this list) */
   updates: [
-    { date:"2026-11-08", t:{he:"גאוגרפיה: לוח זמנים שנתי מעודכן לתשפ\"ז ומדריכה חדשה – נורית שוליק", ar:"الجغرافيا: جدول زمني محدّث ومرشدة جديدة"}, src:{he:"גאוגרפיה", ar:"الجغرافيا"}, url:"https://inbal5980.github.io/itest-media-exams/docs/geo-timeline-tashpaz.jpg" },
+    { date:"2026-11-08", t:{he:"גאוגרפיה: לוח זמנים שנתי, קישורים חשובים מעודכנים לתשפ\"ז ומדריכה חדשה – נורית שוליק", ar:"الجغرافيا: جدول زمني محدّث ومرشدة جديدة"}, src:{he:"גאוגרפיה", ar:"الجغرافيا"}, url:"https://inbal5980.github.io/itest-media-exams/docs/geo-timeline-tashpaz.jpg" },
     { date:"2026-11-08", t:{he:"מדריך רישום נבחנים חדש ב-iTest + הקלטת הדרכה מעודכנת (ספטמבר 2026)", ar:"دليل تسجيل ممتحَنين جديد في iTest + تسجيل إرشاد محدّث"}, src:{he:"מט\"ח", ar:"مَطاح"}, url:"https://storage.cet.ac.il/iTest/support.itest14/Examinee_List_Guide.pdf" },
     { date:"2026-11-05", t:{he:"מועדי הדמיות ובחינות השפות הדבורות תשפ\"ז (הדמיות לעתירות מדיה נפתחות 14.3.2027)", ar:"مواعيد المحاكاة وامتحانات اللغات المحكية 2026–2027"}, src:{he:"משרד החינוך", ar:"وزارة التربية"}, url:"https://meyda.education.gov.il/files/Exams/DatesAvatarExams2027.pdf" },
     { date:"2026-11-04", t:{he:"מכתב ההנחיות המעודכן לבחינות המתוקשבות עתירות המדיה תשפ\"ז", ar:"رسالة التعليمات المحدّثة لامتحانات البجروت المحوسبة الغنية بالوسائط 2026–2027"}, src:{he:"אגף בכיר בחינות", ar:"قسم الامتحانات"}, url:"https://inbal5980.github.io/itest-media-exams/docs/michtav-hanchayot-itiruyot-media-tashpaz.pdf" }
